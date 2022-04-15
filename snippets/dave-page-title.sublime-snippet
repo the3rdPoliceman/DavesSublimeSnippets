@@ -4,8 +4,8 @@
             </div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>dave-doc-page-title</tabTrigger>
-	<description>html page title</description>
+	<tabTrigger>dave-page-title</tabTrigger>
+	<description>Creates a new title element for an html page</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 </snippet>

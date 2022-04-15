@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[<div class="content-link"><a href="#${1:id}">${2:title}</a></div>
+		<div class="row content-section">
+            <div class="col-12 row-content">
+                <div class="h4" id="${1:id}">${2:title}</div>
+            </div>
+        </div>$0]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dave-docs-new-section</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Creates a new section for an HTML page, including an entry for the contents</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="content-link"><a href="#$0"></a></div>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dave-docs-content-entry</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Creates a new content entry for an HTML page</description>
+</snippet>

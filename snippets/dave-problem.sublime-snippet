@@ -8,6 +8,6 @@
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>dave-problem</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Creates a new entry for the problem page</description>
 	<scope>text.html</scope>
 </snippet>
