@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[<span class="badge badge-pill badge-secondary">Exercise</span>]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dave-snowboard-exercise</tabTrigger>
+    <description>Creates a new exercise badge</description>
+    <scope>text.html</scope>
+</snippet>
+

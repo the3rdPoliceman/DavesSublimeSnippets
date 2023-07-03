@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<div class="log-entry">
+    <a class="log-header">
+        <div class="log-title">${1:title}</div>
+    </a>
+    <div class="log-link"><a href="$2" title="">$3</a></div>
+    <div class="log-detail">
+        <strong>Ingredients:</strong>
+        $0
+    </div>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dave-plan-entry</tabTrigger>
+    <description>Creates a new entry for the plan page (tocook.html)</description>
+    <scope>text.html</scope>
+</snippet>

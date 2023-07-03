@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+<div class="log-entry">
+    <a class="log-header">
+        <div class="log-date">${1:day}/${2:month}/${3:2023}</div>
+        <div class="log-title">${4:title}</div>
+        <div class="log-rating-${5:unknown}"></div>
+    </a>
+    <div class="log-link"><a href="$6" title="">$7</a></div>
+    <div class="log-detail">
+        <strong>Ingredients:</strong>
+        $0
+        <strong>Method:</strong>
+         
+        <strong>Result:</strong>
+
+    </div>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dave-cooking-log-entry</tabTrigger>
+    <description>Creates a new entry for the cooking log page</description>
+    <scope>text.html</scope>
+</snippet>

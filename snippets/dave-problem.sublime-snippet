@@ -1,10 +1,11 @@
 <snippet>
-	<content><![CDATA[<div class="problem">
-    <div class="problem-description">${1:problem}</div>
-    <div class="solution">${2:solution}
-        <div class="solution-link"><a href="${3:solutionLink}">${4:solution-descrtiption}</a></div>
-    </div>
-</div>
+	<content><![CDATA[<div class="content-link"><a href="#$1">$2</a></div>
+	<div class="problem">
+	    <div class="problem-description" id="$1">$2</div>
+	    <div class="solution">$3
+	        <div class="solution-link"><a href="$4">$5</a></div>
+	    </div>
+	</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>dave-problem</tabTrigger>
